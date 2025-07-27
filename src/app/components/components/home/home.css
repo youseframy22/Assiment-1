@@ -1,0 +1,27 @@
+section > #home {
+  background-color: var(--bg-item);
+  height: 550px;
+}
+
+.star::before {
+  content: " ";
+  background-color: white;
+  width: 80px;
+  height: 4px;
+  display: flex;
+  top: 0;
+  left: 0;
+  margin-right: 5px;
+  transform: translateY(5px);
+}
+.star::after {
+  content: " ";
+  background-color: white;
+  width: 80px;
+  height: 4px;
+  display: flex;
+  top: 0;
+  left: 0;
+  margin-left: 5px;
+  transform: translateY(5px);
+}

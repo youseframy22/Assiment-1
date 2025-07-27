@@ -1,0 +1,6 @@
+section > main {
+  background-color: var(--bg-navbar);
+}
+section > footer {
+  background-color: var(--bg-footer);
+}
